@@ -1,5 +1,7 @@
 # Tataview 🐶
 
+[English below ↓](#tataview--english)
+
 모두 안녕! 👋
 **Tataview**는 논문이랑 노트를 **읽으면서 표시하는** 맥 앱이야.
 md·PDF·워드·엑셀을 열어서 형광펜·밑줄·포스트잇을 붙이고, 인터뷰 전사 같은 표는 엑셀처럼 걸러보고, 옆에 붙어 있는 Claude한테 정리를 맡길 수 있어.
@@ -12,6 +14,7 @@ md·PDF·워드·엑셀을 열어서 형광펜·밑줄·포스트잇을 붙이�
 ## ⬇️ 받기
 ### [Tataview 0.5 다운로드 (dmg)](https://github.com/tatah62/Tataview/releases/download/v0.5/Tataview-0.5.dmg)
 받은 `Tataview-0.5.dmg`를 열고 **Tataview를 Applications로 끌어다 놓으면** 끝이야.
+처음 켤 때 **한국어 / English**를 고를 수 있어 (나중에 **보기 → 언어**에서 바꿔).
 처음 열 때 경고가 뜨면 [설치 안내](설치_안내.md)를 봐줘. (다른 버전·바뀐 내용은 [Releases](https://github.com/tatah62/Tataview/releases))
 
 ## 📖 이런 앱이야
@@ -62,6 +65,7 @@ md·PDF·워드·엑셀을 열어서 형광펜·밑줄·포스트잇을 붙이�
 - **A4 인쇄**(세로/가로), PDF로 저장
 
 ### 🎨 화면
+- **언어**: 한국어 / English
 - **테마**: 라이트·다크·겨울 밤 + 딸기 말차·겨울 아침·콘플라워·프로스트 앤 엠버·크리스마스, **직접 정하기**
   - 형광펜·포스트잇 색도 테마를 따라 바뀌어
 - 패널마다 접기·펴기, 경계선 끌어서 너비 조절
@@ -77,3 +81,87 @@ md·PDF·워드·엑셀을 열어서 형광펜·밑줄·포스트잇을 붙이�
   - 💬 "불편했던 거 정리해서 Tataview 피드백 보내줘"
   - 🐛 "표 필터가 가끔 안 풀려. 버그로 Tataview 피드백 보내줘"
   - 💡 "포스트잇 모아보는 화면 있으면 좋겠어. 아이디어로 Tataview 피드백 보내줘"
+
+---
+
+# Tataview 🐶 (English)
+
+Hi everyone! 👋
+**Tataview** is a Mac app for **reading papers and notes while marking them up**.
+Open md, PDF, Word and Excel files, add highlights, underlines and sticky notes, filter tables like interview transcripts the way you would in Excel, and hand the tidying up to Claude right next to your document.
+
+## ✅ What you need
+- **An Apple Silicon (M-chip) Mac**, **macOS 13** or later
+- **[Claude Code](https://docs.anthropic.com/claude-code)** installed and signed in (used in the Claude panel on the right)
+  - If typing `claude` in Terminal starts it, you're all set!
+
+## ⬇️ Download
+### [Download Tataview 0.5 (dmg)](https://github.com/tatah62/Tataview/releases/download/v0.5/Tataview-0.5.dmg)
+Open `Tataview-0.5.dmg` and **drag Tataview into Applications**. That's it.
+On first launch you pick **English or 한국어** (you can change it later in **View → Language**).
+If macOS warns you the first time, see the [install guide](설치_안내.md#tataview-install-guide-english). (Other versions and changes: [Releases](https://github.com/tatah62/Tataview/releases))
+
+## 📖 What it does
+
+### 📄 Reading
+- Opens **md, PDF, Word (docx), Excel (xlsx) and CSV**
+- Word, Excel and CSV are converted for easy reading (the original stays untouched)
+- Math (LaTeX), images and tables look nice
+- **Your originals never change.** When you mark something up and save, a separate copy is made in your Tataview folder
+
+### 🖍 Marking up
+- Drag over text and a small bar pops up
+  - **Highlighter** in 5 colors, **underline**
+  - **Sticky note** 📝: stick a note right there; click it to open a big note pad
+    - Bold · italic · headings · text size, bullets · numbering · checkboxes · indent
+    - 6 colors, light grid
+- **Right-click anywhere → Stick a sticky note here** (empty space works too)
+- Add `#tags` to notes to group them, and see which sentences share a tag in the **tag graph**
+- Hover over a highlight to see its note in a bubble
+- The **highlights panel** on the right collects all highlights, underlines and sticky notes (filter them, export them)
+
+### 📊 Tables (interview transcripts, working tables)
+- **▾** next to a column title = **Excel-style filter**: pick values to show only those rows, sort, filter several columns at once
+- Write several codes in a cell like `a, b` and each one is filtered separately (great for open coding)
+- Click a **note cell** to type right away; use **Edit** mode for other cells and to add rows/columns
+- **Export as CSV** (opens straight in Excel)
+
+### 🤖 Claude, right next to you
+- **Claude Code** sits on the right side of the app
+- Open files yourself or just ask Claude. Whatever it does shows up in the app right away
+- 💬 **Things you can say**
+  - 📑 "Read the ○○ paper PDF in Downloads and make a detailed section-by-section bullet summary in this project"
+  - 🔍 "Pull out the research questions, gap, method and main findings of this paper into a table"
+  - 📊 "Turn this Excel interview transcript into a table and add a theme column"
+  - 🏷 "Gather every sticky note and sentence tagged #fear_to_speak in this project"
+  - 📝 "This note is too dense. Add space between paragraphs and some subheadings"
+  - 🧮 (paste a screenshot of a formula) "Write out the solution step by step in md"
+  - 🗂 "Make a new project 'Literature' and move the paper notes from Unsorted there"
+  - ✏️ "Rename this file to '2026_Kim_reading'"
+  - 💾 "Save" (saves every open file)
+  - 💌 "Sum up what bugged me and send Tataview feedback"
+- Paste a **screenshot** with ⌘V to preview it, then type a question and press Enter to log it in md and ask Claude
+- Conversations are **remembered automatically** per project
+
+### 💾 Saving & files
+- Save with ⌘S **like Word**. If you close without saving, Tataview asks
+- Project folders (folders in folders OK), drag to move, rename, move to Trash
+- **A4 printing** (portrait/landscape), save as PDF
+
+### 🎨 Screen
+- **Themes**: Light · Dark · Winter Night + Strawberry Matcha · Winter Morning · Cornflower · Frost & Ember · Christmas, and **Custom**
+  - Highlighter and sticky-note colors follow the theme
+- **Language**: English / 한국어
+- Collapse each panel, drag borders to resize
+- All the usual shortcuts (⌘N · ⌘O · ⌘S · ⌘Z · ⌘F · ⌘B…, Ctrl works too)
+- A **guide** shows up on first launch (later: menu Tataview → How to use, ⌘/)
+
+## 💌 Feedback
+Bugs, ideas, anything annoying — send it anytime!
+- App menu **Tataview → Send feedback…**
+  - Pick something to fix · bug · idea, and write it down
+  - 📸 **Attach screenshots here!** Check "Attach a screenshot of the current screen" to include what you see
+- Or ask Claude on the right (text only)
+  - 💬 "Sum up what bugged me and send Tataview feedback"
+  - 🐛 "The table filter sometimes won't clear. Send it as a bug to Tataview feedback"
+  - 💡 "It'd be nice to have a screen that collects all sticky notes. Send it as an idea to Tataview feedback"
