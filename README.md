@@ -18,5 +18,8 @@
 - M칩 맥, macOS 13 이상
 - [Claude Code](https://docs.anthropic.com/claude-code) 설치·로그인 (오른쪽 Claude 칸용)
 
+## 피드백
+앱 메뉴 **Tataview → 피드백 보내기…** 또는 앱 오른쪽 Claude한테 "불편했던 거 정리해서 Tataview 피드백 보내줘". GitHub 계정 없어도 돼.
+
 ## 원칙
 - 글(논문·노트·워드)은 **읽고 표시만**, 표는 **정리하는 곳**
