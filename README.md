@@ -3,7 +3,9 @@
 논문·노트를 **읽고 표시하는** 맥 앱. md·PDF·워드·엑셀을 열어서 형광펜·밑줄·포스트잇·태그를 달고, 표는 엑셀처럼 걸러보고, 오른쪽에 붙어 있는 Claude Code한테 정리를 시킬 수 있어.
 
 ## 받기
-[Releases](../../releases)에서 최신 `Tataview-버전.dmg`를 받아서 열고, Tataview를 Applications로 끌어다 놓으면 돼.
+### ⬇️ [Tataview 0.5 다운로드 (dmg)](https://github.com/tatah62/Tataview/releases/download/v0.5/Tataview-0.5.dmg)
+
+받은 `Tataview-0.5.dmg`를 열고, Tataview를 Applications로 끌어다 놓으면 돼. (다른 버전은 [Releases](https://github.com/tatah62/Tataview/releases))
 자세한 건 [설치 안내](설치_안내.md).
 
 ## 이런 앱이야
