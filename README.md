@@ -12,8 +12,8 @@ md·PDF·워드·엑셀을 열어서 형광펜·밑줄·포스트잇을 붙이�
   - 터미널에서 `claude` 쳐서 실행되면 준비 끝!
 
 ## ⬇️ 받기
-### [Tataview 0.5 다운로드 (dmg)](https://github.com/tatah62/Tataview/releases/download/v0.5/Tataview-0.5.dmg)
-받은 `Tataview-0.5.dmg`를 열고 **Tataview를 Applications로 끌어다 놓으면** 끝이야.
+### [Tataview 0.5.1 다운로드 (dmg)](https://github.com/tatah62/Tataview/releases/download/v0.5.1/Tataview-0.5.1.dmg)
+받은 `Tataview-0.5.1.dmg`를 열고 **Tataview를 Applications로 끌어다 놓으면** 끝이야.
 처음 켤 때 **한국어 / English**를 고를 수 있어 (나중에 **보기 → 언어**에서 바꿔).
 처음 열 때 경고가 뜨면 [설치 안내](설치_안내.md)를 봐줘. (다른 버전·바뀐 내용은 [Releases](https://github.com/tatah62/Tataview/releases))
 
@@ -66,7 +66,7 @@ md·PDF·워드·엑셀을 열어서 형광펜·밑줄·포스트잇을 붙이�
 
 ### 🎨 화면
 - **언어**: 한국어 / English
-- **테마**: 라이트·다크·겨울 밤 + 딸기 말차·겨울 아침·콘플라워·프로스트 앤 엠버·크리스마스, **직접 정하기**
+- **테마**: 라이트·다크·가을 밤·포레스트 밤·겨울 밤 + 딸기 말차·조약돌·가을·포레스트·겨울 아침·프로스트 앤 엠버·크리스마스, **직접 정하기**
   - 형광펜·포스트잇 색도 테마를 따라 바뀌어
 - 패널마다 접기·펴기, 경계선 끌어서 너비 조절
 - 기본 단축키 다 돼 (⌘N·⌘O·⌘S·⌘Z·⌘F·⌘B…, Ctrl도 OK)
@@ -96,8 +96,8 @@ Open md, PDF, Word and Excel files, add highlights, underlines and sticky notes,
   - If typing `claude` in Terminal starts it, you're all set!
 
 ## ⬇️ Download
-### [Download Tataview 0.5 (dmg)](https://github.com/tatah62/Tataview/releases/download/v0.5/Tataview-0.5.dmg)
-Open `Tataview-0.5.dmg` and **drag Tataview into Applications**. That's it.
+### [Download Tataview 0.5.1 (dmg)](https://github.com/tatah62/Tataview/releases/download/v0.5.1/Tataview-0.5.1.dmg)
+Open `Tataview-0.5.1.dmg` and **drag Tataview into Applications**. That's it.
 On first launch you pick **English or 한국어** (you can change it later in **View → Language**).
 If macOS warns you the first time, see the [install guide](설치_안내.md#tataview-install-guide-english). (Other versions and changes: [Releases](https://github.com/tatah62/Tataview/releases))
 
@@ -149,7 +149,7 @@ If macOS warns you the first time, see the [install guide](설치_안내.md#tata
 - **A4 printing** (portrait/landscape), save as PDF
 
 ### 🎨 Screen
-- **Themes**: Light · Dark · Winter Night + Strawberry Matcha · Winter Morning · Cornflower · Frost & Ember · Christmas, and **Custom**
+- **Themes**: Light · Dark · Autumn Night · Forest Night · Winter Night + Strawberry Matcha · Pebble · Autumn · Forest · Winter Morning · Frost & Ember · Christmas, and **Custom**
   - Highlighter and sticky-note colors follow the theme
 - **Language**: English / 한국어
 - Collapse each panel, drag borders to resize
