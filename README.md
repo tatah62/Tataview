@@ -7,15 +7,21 @@
 md·PDF·워드·엑셀을 열어서 형광펜·밑줄·포스트잇을 붙이고, 인터뷰 전사 같은 표는 엑셀처럼 걸러보고, 옆에 붙어 있는 Claude한테 정리를 맡길 수 있어.
 
 ## ✅ 필요한 것
-- **M칩 맥** (Apple Silicon), **macOS 13** 이상
+- **M칩 맥**(Apple Silicon, macOS 13 이상) **또는 윈도우 10/11**(64비트)
 - **[Claude Code](https://docs.anthropic.com/claude-code)** 설치 + 로그인 (앱 오른쪽 Claude 칸에서 써)
   - 터미널에서 `claude` 쳐서 실행되면 준비 끝!
 
 ## ⬇️ 받기
-### [Tataview 0.5.1 다운로드 (dmg)](https://github.com/tatah62/Tataview/releases/download/v0.5.1/Tataview-0.5.1.dmg)
+### 🍎 맥: [Tataview 0.5.1 다운로드 (dmg)](https://github.com/tatah62/Tataview/releases/download/v0.5.1/Tataview-0.5.1.dmg)
 받은 `Tataview-0.5.1.dmg`를 열고 **Tataview를 Applications로 끌어다 놓으면** 끝이야.
 처음 켤 때 **한국어 / English**를 고를 수 있어 (나중에 **보기 → 언어**에서 바꿔).
-처음 열 때 경고가 뜨면 [설치 안내](설치_안내.md)를 봐줘. (다른 버전·바뀐 내용은 [Releases](https://github.com/tatah62/Tataview/releases))
+처음 열 때 경고가 뜨면 [설치 안내](설치_안내.md)를 봐줘.
+
+### 🪟 윈도우: [Tataview 0.5.1 다운로드 (설치 파일)](https://github.com/tatah62/Tataview/releases/download/v0.5.1/Tataview-0.5.1-win-setup.exe)
+받은 설치 파일을 실행하고 안내대로 따라가면 끝이야. **"Windows에서 PC를 보호했습니다"** 경고가 뜨면 **추가 정보 → 실행**(서명 안 된 앱이라 뜨는 경고라 괜찮아). 자세한 건 [설치 안내](설치_안내.md#윈도우) 참고.
+- 아직 초기 버전이라 PDF 하이라이트 텍스트 미리보기, 비밀번호 잠금 같은 일부(맥 전용) 기능은 빠져 있어. 나머지(형광펜·밑줄·포스트잇·표·Claude 터미널)는 다 돼
+
+(다른 버전·바뀐 내용은 [Releases](https://github.com/tatah62/Tataview/releases))
 
 ## 📖 이런 앱이야
 
@@ -91,15 +97,21 @@ Hi everyone! 👋
 Open md, PDF, Word and Excel files, add highlights, underlines and sticky notes, filter tables like interview transcripts the way you would in Excel, and hand the tidying up to Claude right next to your document.
 
 ## ✅ What you need
-- **An Apple Silicon (M-chip) Mac**, **macOS 13** or later
+- **An Apple Silicon (M-chip) Mac** (macOS 13+) **or Windows 10/11** (64-bit)
 - **[Claude Code](https://docs.anthropic.com/claude-code)** installed and signed in (used in the Claude panel on the right)
   - If typing `claude` in Terminal starts it, you're all set!
 
 ## ⬇️ Download
-### [Download Tataview 0.5.1 (dmg)](https://github.com/tatah62/Tataview/releases/download/v0.5.1/Tataview-0.5.1.dmg)
+### 🍎 Mac: [Download Tataview 0.5.1 (dmg)](https://github.com/tatah62/Tataview/releases/download/v0.5.1/Tataview-0.5.1.dmg)
 Open `Tataview-0.5.1.dmg` and **drag Tataview into Applications**. That's it.
 On first launch you pick **English or 한국어** (you can change it later in **View → Language**).
-If macOS warns you the first time, see the [install guide](설치_안내.md#tataview-install-guide-english). (Other versions and changes: [Releases](https://github.com/tatah62/Tataview/releases))
+If macOS warns you the first time, see the [install guide](설치_안내.md#tataview-install-guide-english).
+
+### 🪟 Windows: [Download Tataview 0.5.1 (installer)](https://github.com/tatah62/Tataview/releases/download/v0.5.1/Tataview-0.5.1-win-setup.exe)
+Run the installer and follow the prompts. If **"Windows protected your PC"** shows up, click **More info → Run anyway** (that's expected for an unsigned app). See the [install guide](설치_안내.md#windows) for details.
+- Still an early build — a few Mac-only features (PDF highlight text preview, password lock) aren't there yet. Everything else (highlights, underline, sticky notes, tables, the Claude terminal) works
+
+(Other versions and changes: [Releases](https://github.com/tatah62/Tataview/releases))
 
 ## 📖 What it does
 
