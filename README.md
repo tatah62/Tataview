@@ -19,7 +19,6 @@ md·PDF·워드·엑셀을 열어서 형광펜·밑줄·포스트잇을 붙이�
 
 ### 🪟 윈도우: [Tataview 0.5.1 다운로드 (설치 파일)](https://github.com/tatah62/Tataview/releases/download/v0.5.1/Tataview-0.5.1-win-setup.exe)
 받은 설치 파일을 실행하고 안내대로 따라가면 끝이야. **"Windows에서 PC를 보호했습니다"** 경고가 뜨면 **추가 정보 → 실행**(서명 안 된 앱이라 뜨는 경고라 괜찮아). 자세한 건 [설치 안내](설치_안내.md#윈도우) 참고.
-- 아직 초기 버전이라 PDF 하이라이트 텍스트 미리보기, 비밀번호 잠금 같은 일부(맥 전용) 기능은 빠져 있어. 나머지(형광펜·밑줄·포스트잇·표·Claude 터미널)는 다 돼
 
 (다른 버전·바뀐 내용은 [Releases](https://github.com/tatah62/Tataview/releases))
 
@@ -109,7 +108,6 @@ If macOS warns you the first time, see the [install guide](설치_안내.md#tata
 
 ### 🪟 Windows: [Download Tataview 0.5.1 (installer)](https://github.com/tatah62/Tataview/releases/download/v0.5.1/Tataview-0.5.1-win-setup.exe)
 Run the installer and follow the prompts. If **"Windows protected your PC"** shows up, click **More info → Run anyway** (that's expected for an unsigned app). See the [install guide](설치_안내.md#windows) for details.
-- Still an early build — a few Mac-only features (PDF highlight text preview, password lock) aren't there yet. Everything else (highlights, underline, sticky notes, tables, the Claude terminal) works
 
 (Other versions and changes: [Releases](https://github.com/tatah62/Tataview/releases))
 
